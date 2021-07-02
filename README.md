@@ -1,4 +1,4 @@
-#Contraction Hierarchies
+# Contraction Hierarchies
 advanced algorithm for comupting shortest path
 
 The code was tested on a [road network graph of New York](http://www.dis.uniroma1.it/challenge9/download.shtml) (has about 250K nodes, 700K edges) and takes on average 31s for preprocessing and average query time of 2.5ms on my machine.
@@ -6,7 +6,7 @@ The code was tested on a [road network graph of New York](http://www.dis.uniroma
 [wikipidia](https://en.wikipedia.org/wiki/Contraction_hierarchies)
 [source](https://d3c33hcgiwev3.cloudfront.net/_4b3e617775b52e3c72a457a310a2be43_19_advanced_shortest_paths_3_contraction_hierarchies.pdf?Expires=1625270400&Signature=RMaGLTZ950PCY8x4joLlIMetizXeQVpgA8Du4pPLcFmnrXoDuH2RmA7MPhFNmResVOBqy0TYWsY~Tn-W-Bcv-ufN68IZVxQ92~SVyGFYSFQZPWo06cogMRqbEZYvxLrZbl1lvhdhrVFxrtcxwmCggSTWOUs2~ha~nMejUNYzYqg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
-##usage 
+## usage 
 -download header file 
 -include it
 -use class graph(number of nodes)
@@ -33,6 +33,6 @@ int main() {
     return 0;
 }
 ```
-#important
+# important
 
 use -O flag for compiler to optimize code
