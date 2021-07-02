@@ -7,15 +7,20 @@ The code was tested on a [road network graph of New York](http://www.dis.uniroma
 [source](https://d3c33hcgiwev3.cloudfront.net/_4b3e617775b52e3c72a457a310a2be43_19_advanced_shortest_paths_3_contraction_hierarchies.pdf?Expires=1625270400&Signature=RMaGLTZ950PCY8x4joLlIMetizXeQVpgA8Du4pPLcFmnrXoDuH2RmA7MPhFNmResVOBqy0TYWsY~Tn-W-Bcv-ufN68IZVxQ92~SVyGFYSFQZPWo06cogMRqbEZYvxLrZbl1lvhdhrVFxrtcxwmCggSTWOUs2~ha~nMejUNYzYqg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 ## usage 
--download header file 
--include it
--use class graph(number of nodes)
--use add_edge(from,to,cost) nodes should be zero based
--preprocess();
--query(from,to)
--query return struct path which have cost(int) nodes(vector<int>)
+-download header file.
+-include it.
 
--- change_importance can be used before preprocessing to change importance constants
+-use class graph(number of nodes).
+
+-use add_edge(from,to,cost) nodes should be zero based.
+
+-preprocess().
+
+-query(from,to).
+
+-query return struct path which have cost(int) nodes(vector<int>).
+
+-- change_importance can be used before preprocessing to change importance constants.
 
 
 ```cpp
